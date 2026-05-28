@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables (SENSITIVE!)
+.env
+.env.local
+.env.development
+.env.production
+.env.*
+.env*.local
+*.env
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.*
+**/.env*.local
+**/*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+**/logs/
+**/*.log
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# OS/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
